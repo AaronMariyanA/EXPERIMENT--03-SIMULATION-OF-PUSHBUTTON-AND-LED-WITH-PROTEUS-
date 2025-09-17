@@ -71,16 +71,89 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 
 ## STM 32 CUBE PROGRAM :
+```/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.h
+  * @brief          : Header for main.c file.
+  *                   This file contains the common defines of the application.
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2025 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __MAIN_H
+#define __MAIN_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f4xx_hal.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Exported types ------------------------------------------------------------*/
+/* USER CODE BEGIN ET */
+
+/* USER CODE END ET */
+
+/* Exported constants --------------------------------------------------------*/
+/* USER CODE BEGIN EC */
+
+/* USER CODE END EC */
+
+/* Exported macro ------------------------------------------------------------*/
+/* USER CODE BEGIN EM */
+
+/* USER CODE END EM */
+
+/* Exported functions prototypes ---------------------------------------------*/
+void Error_Handler(void);
+
+/* USER CODE BEGIN EFP */
+
+/* USER CODE END EFP */
+
+/* Private defines -----------------------------------------------------------*/
+/* USER CODE BEGIN Private defines */
+
+/* USER CODE END Private defines */
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __MAIN_H */
+
+```
 
 
 
 
 ## Output screen shots of proteus  :
+<img width="1920" height="1200" alt="Screenshot 2025-09-16 114901" src="https://github.com/user-attachments/assets/d3901f8e-a38c-4b7f-be92-666d13771c80" />
+<img width="1920" height="1200" alt="Screenshot 2025-09-16 114915" src="https://github.com/user-attachments/assets/6590cd4b-f690-46b8-9958-052b6aef3835" />
 
 
 
 
-## Proteus layout(Add pdf screen shot of circuit here)
+
+
  
  
  
